@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top: 0s;
+  }
+  
+.img-mac{
+    height: 50px;
+}
+.ca{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: solid white;
+}
+
+.card-d{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid white;
+}
+.c-img{
+    width: 40%;
+}

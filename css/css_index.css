@@ -1,0 +1,43 @@
+.card-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .card {
+    width: 22rem;
+    height: 367px;
+    margin: 10px;
+  }
+  .card img {
+    height: 40%;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .img-mac {
+    height: 50px;
+  }
+  .navbtn{
+    margin: 0px 0px 0px 8px;
+  }
+  @media only screen and (max-width: 615px) {
+    .card-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 80%;
+      height: 50%;
+    }
+    
+  }
+   @media only screen and (max-width: 993px){
+    .scr{
+        margin: 10px 0px 0px 0px;
+    }
+  } 
